@@ -1,19 +1,42 @@
 *{
   background-color: #0a0f2c;
+  font-family: 'Inter', sans-serif;
 }
 header{
-border-bottom: 2px solid #00aacc;
-padding: 25px;
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 2px solid #00aacc;
+  padding: 25px;
+  background-color: #0a0f2c;
 }
-a{
+.voltar{
+  display: inline-block;
+  background-color: #111536;
+  border: 1px solid #00aacc;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
   text-decoration: none;
   color: aliceblue;
-  font-size: 25px;
+}
+
+.voltar:hover{
+  background-color: #00aacc;
+  color: #0a0f2c;
+  border-color: #00ffee;
+  transform: translateY(-2px);
 }
 main{
 margin-left: 200px;
+margin-top: 92px;
 }
 h2{
+  font-family: 'Playfair Display', serif;
   color: #a8b4cc;
   font-size: 50px;
 }
+
